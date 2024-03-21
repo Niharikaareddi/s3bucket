@@ -1,8 +1,8 @@
 # s3bucket_and_EC2 instance
 1. The following steps define the execution process:
 2. Step 1: Create an EC2 instance and S3 bucket.
-3. Step 2: Go to IAM and attach S3 full access to the role and then finally assign this role to the created EC2 instance.
-4. Step 3: SSH and perform the actions to check the connectivity between EC2 instance and S3 bucket, create files and upload them to the S3  bucket and also transfer to EC2 instance.
+3. Step 2: Go to IAM and attach S3 full access policy to the role and then finally assign this role to the created EC2 instance.
+4. Step 3: SSH and perform the actions to check the connectivity between the EC2 instance and the S3 bucket, create files and upload them to the S3  bucket, and also transfer to the EC2 instance.
 Commands:
   1. sudo apt update
   2. sudo apt install awscli
@@ -15,4 +15,4 @@ Commands:
   9. For example:
   10. aws s3 cp index.html s3://mybucket/index.html (REF POINT 6)
   11. aws s3 cp s3://mybucket/index.html htmlfroms3 (REF POINT 8)
-These steps make one to successfully launch websites as well using CLI and S3 bucket.
+These steps allow one to launch websites and transfer the files from the S3bucket to the EC2 instance and vice-versa using CLI and S3 bucket successfully
