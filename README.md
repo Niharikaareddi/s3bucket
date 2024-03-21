@@ -1,8 +1,8 @@
 # s3bucket_and_EC2 instance
-The following steps define the execution process:
-Step 1: Created an EC2 instance and S3 bucket.
-Step 2: Go to IAM and attach S3 full access to the role and then finally assign this role to created EC2 instance.
-Step 3: SSH and perform the actions to check the connectivity between EC2 instance and S3 bucket, create files and upload them to S3 bucket and also transfer to EC2 instance.
+1. The following steps define the execution process:
+ Step 1: Create an EC2 instance and S3 bucket.
+ Step 2: Go to IAM and attach S3 full access to the role and then finally assign this role to created EC2 instance.
+ Step 3: SSH and perform the actions to check the connectivity between EC2 instance and S3 bucket, create files and upload them to S3  bucket and also transfer to EC2 instance.
 Commands:
   1. sudo apt update
   2. sudo apt install awscli
