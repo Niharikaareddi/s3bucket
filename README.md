@@ -15,4 +15,4 @@ Commands:
   9. For example:
   10. aws s3 cp index.html s3://mybucket/index.html (REF POINT 6)
   11. aws s3 cp s3://mybucket/index.html htmlfroms3 (REF POINT 8)
-These steps allow one to launch websites and transfer the files from the S3bucket to the EC2 instance and vice-versa using CLI and S3 bucket successfully
+These steps allow one to launch websites and upload the files from the S3bucket to the EC2 instance and vice-versa using CLI and S3 bucket successfully
